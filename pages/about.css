@@ -1,0 +1,64 @@
+.heading{
+	font-size: 150px;
+	position: relative;
+ 	animation: my2 2s 1;
+ 	color: #2C3E50;
+ 	animation-direction: normal;
+
+}
+.hbar{
+  background-color: #1B2631;
+  font-size: 20px;
+}   
+
+.photoblk {
+	 padding: 20px;
+	 width:100%;
+	 align-content: center;
+	 background-color:#EBF5FB;
+}
+
+.mainphoto
+{
+  
+  margin-left:auto;
+  margin-top: auto;
+  animation: my1 2s 1;
+  position: relative;
+  animation-direction: normal;
+
+}
+.ab{
+	background-color: #76D7C4;
+	color: #1B2631;
+	width:100%;
+}
+p{
+	color:#2C3E50 ;
+}
+
+@keyframes my1 {
+  0%   { left: 0px; top: 500px;}
+  100%  { left: 0px; top: 0px;}
+}
+@keyframes my2 {
+  0%   { left: 700px; top: 0px;}
+  100%  { left: 0px; top: 0px;}
+}
+
+
+@media screen and (max-width: 480px)
+{
+	img{
+		width:100%;
+	}
+	 
+	.heading{
+	font-size: 70px;
+	position: relative;
+ 	animation: my2 2s 1;
+ 	color: #2C3E50;
+ 	animation-direction: normal;
+	}
+	 
+}
